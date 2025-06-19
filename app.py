@@ -14,7 +14,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
 
 # Hardcoded API key
-os.environ['OPENAI_API_KEY'] = "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"  
+os.environ['OPENAI_API_KEY'] = "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"  
 
 # Initialize embeddings and LLM
 embeddings = OpenAIEmbeddings()
